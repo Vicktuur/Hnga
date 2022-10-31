@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.App {
+    text-align: center;
+}
+#profile__img {
+    width: 130px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.option {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+.share {
+    display: none;
+}
+#slack {
+    display: none;
+}
+.App-header p {
+    margin: auto;
+    width: 343px;
+    height: 28px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #101828;
+    padding: 30px 0 40px 0;
+}
+.profile a {
+   background-color: #EAECF0; 
+   width: 90%;
+   display: flex;  
+   justify-content: center;
+   align-items: center;
+   padding: 24px 32px;
+   margin-top: 15px;
+   margin-left: auto;
+   margin-right: auto;
+   color: #101828;
+   height: 68px;
+   background: #EAECF0;
+   border: 1px solid #EAECF0;
+   border-radius: 8px;
+   text-decoration: none;
+}
+@media (min-width: 768px) {
+    .profile a {
+        width: 80%;
+    }
+    .option {
+        display: none;
+    }
+    .share {
+        display: block;
+        position: absolute;
+        top: 50px;
+        right: 300px;
+    }
+}
